@@ -5,8 +5,8 @@ public class WriteFile {
     public static void main(String[] args) {
 
         try {
-            FileWriter writer = new FileWriter("test.txt");
-            writer.write("Hello Yuvraj!");
+            FileWriter writer = new FileWriter("test.txt ",true);
+            writer.write("Hello tomar!");
             writer.close();
 
             System.out.println("Data written successfully");
