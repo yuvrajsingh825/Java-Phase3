@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class Generics {
     public static void main(String[]args){
@@ -7,6 +8,10 @@ public class Generics {
         list.add("Kamlesh");
         list.add("ram");
         list.add("monu");
-        System.out.println(list);
+        Collections.sort(list, Collections.reverseOrder());
+        System.out.println("reversesortinglist: " + list);
+
+        Collections.sort(list);
+        System.out.println("normal sorting list: " + list);
     }
 }
