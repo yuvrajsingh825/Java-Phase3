@@ -7,6 +7,6 @@ public class SumOfEven {
                 .filter(x -> x % 2 == 0)
                 .mapToInt(Integer::intValue)
                 .sum();
-        System.out.println("Sum of even numbers: " + sum);
+        System.out.println("Sum of even : " + sum);
     }
 }
