@@ -9,3 +9,4 @@ public class StreamSquare {
         .forEach(System.out::println);
     }
 }
+    
