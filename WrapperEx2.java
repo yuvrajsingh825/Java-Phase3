@@ -15,5 +15,7 @@ public class WrapperEx2 {
         int value = list.get(1); // unboxing
 
         System.out.println("Second element: " + value);
+
+    
     }
 }
