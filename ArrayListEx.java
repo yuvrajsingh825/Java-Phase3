@@ -14,7 +14,7 @@ public class ArrayListEx {
         list.add(5);
 
         System.out.println("List: " + list);
-
+        list.remove(1);
         list.remove(2);
         list.remove(Integer.valueOf(3));
         
