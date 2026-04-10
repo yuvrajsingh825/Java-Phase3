@@ -18,5 +18,6 @@ public class Custom {
         } catch (LowBalanceException e){
             System.out.println(e.getMessage());
         }
+        System.out.println("HHello");
     }
 }
